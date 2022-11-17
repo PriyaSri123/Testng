@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+  <parameter name = "username" value = "abc@gmail.com"> </parameter>
+  <parameter name = "password" value = "Test@123"> </parameter>
+   <parameter name = "invalidusername" value = "abc"> </parameter>
+  <parameter name = "invalidpassword" value = "57#@"> </parameter>
+  <classes>
+      <class name="edurekatwo.ParametrizationEx"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

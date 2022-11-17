@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+  <groups>
+  <define name = "m1-m5">
+   <include name = "regression"></include>
+  </define>
+  <run>
+  <include name = "regression"></include>
+  <exclude name = "smoke"></exclude>
+  </run>
+  </groups>
+    <classes>
+      <class name="edurekatwo.GroupExample"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
